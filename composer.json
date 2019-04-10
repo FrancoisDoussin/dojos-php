@@ -1,0 +1,17 @@
+{
+    "name": "francois/dojos",
+    "authors": [
+        {
+            "name": "François Doussin",
+            "email": "doussin.f@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
